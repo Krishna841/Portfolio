@@ -32,21 +32,22 @@ const Contact = () => {
           <div className="contact_body_content_links">
             <div className="contact_body_content_links_one">
               <a href="https://www.linkedin.com/in/krishna-goswami-5584561b1/">
-                <img src={linkedin} height={25} width={25} /> Linkedin
+                <img src={linkedin} height={25} width={25} alt="linkedin" />{" "}
+                Linkedin
               </a>
             </div>
             <div className="contact_body_content_links_two">
-              <img src={github} height={25} width={25} />
+              <img src={github} height={25} width={25} alt="github" />
               Github
             </div>
           </div>
           <div className="contact_body_content_more">
             <div className="contact_body_content_more_one">
-              <img src={email} height={25} width={25} />
+              <img src={email} height={25} width={25} alt="email" />
               goswamikrishna841@gmail.com
             </div>
             <div className="contact_body_content_more_two">
-              <img src={discord} height={25} width={25} /> Discord
+              <img src={discord} height={25} width={25} alt="discord" /> Discord
             </div>
           </div>
         </div>

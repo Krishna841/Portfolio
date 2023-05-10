@@ -50,42 +50,32 @@
   animation: bounce 4s infinite;
 }
 @keyframes bounce {
-  // 10% {
-  //   transform: translate(70px, 270px);
-  //   // transition-timing-function: ease-out;
-  // }
-  // 30%,
-  // 60%,
-  // 78% {
-  //   transform: translate(100px, 50px);
-  // }
-  // 50% {
-  //   transform: translate(100px, 270px);
-  // }
-  16%,
-  48%,
+  10% {
+    transform: translate(70px, 270px);
+    // transition-timing-function: ease-out;
+  }
+  30%,
+  60%,
   78% {
-    top: 300px;
-    animation-timing-function: ease-out;
+    transform: translate(100px, 50px);
   }
-  32% {
-    top: 50px;
-    animation-timing-function: ease-in;
+  50% {
+    transform: translate(100px, 270px);
   }
-  62% {
-    top: 150px;
-    animation-timing-function: ease-in;
-  }
-  90% {
-    top: 200px;
-    animation-timing-function: ease-in;
-  }
-  100% {
-    top: 270px;
-    left: 100%;
-    animation-timing-function: ease-out;
-    transform: rotate(360deg);
-  }
+
+  //   top: 150px;
+  //   animation-timing-function: ease-in;
+  // }
+  // 90% {
+  //   top: 200px;
+  //   animation-timing-function: ease-in;
+  // }
+  // 100% {
+  //   top: 270px;
+  //   left: 100%;
+  //   animation-timing-function: ease-out;
+  //   transform: rotate(360deg);
+  // }
 }
 .landing_body_text_t_new,
 .landing_body_text_about_new,

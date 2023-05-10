@@ -6,13 +6,13 @@ import stairs from "../../assets/stairs.svg";
 import { Link } from "react-router-dom";
 
 const Landing = () => {
-  const followMouse = (e) => {
-    const mouseX = e.clientX;
-    const mouseY = e.clientY;
-    const head = document.getElementById("head");
-    head.style.left = mouseX + "px";
-    head.style.top = mouseY + "px";
-  };
+  // const followMouse = (e) => {
+  //   const mouseX = e.clientX;
+  //   const mouseY = e.clientY;
+  //   const head = document.getElementById("head");
+  //   head.style.left = mouseX + "px";
+  //   head.style.top = mouseY + "px";
+  // };
   return (
     <div className="landing">
       <div className="landing_navbar">
