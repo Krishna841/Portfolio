@@ -1,0 +1,40 @@
+.contact {
+  height: 100vh;
+  width: 100vw;
+  &_navbar {
+    height: 20%;
+    width: 100%;
+  }
+  &_body {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    &_title {
+      height: 10%;
+      width: 80%;
+      display: flex;
+      font-size: 40px;
+      font-weight: 600;
+    }
+    &_content {
+      height: 90%;
+      width: 50%;
+      display: flex;
+      padding: 10px;
+      flex-direction: column;
+      justify-content: space-evenly;
+      &_links {
+        display: flex;
+        justify-content: space-around;
+      }
+      &_more {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  }
+}

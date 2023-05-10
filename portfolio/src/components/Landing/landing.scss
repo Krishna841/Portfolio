@@ -1,0 +1,116 @@
+.landing {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &_navbar {
+    height: 20%;
+    width: 100%;
+  }
+  &_body {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &_text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-left: 2em;
+      font-size: 56px;
+      text-align: left;
+      transition: all 500ms ease-in-out;
+      &_t {
+        old {
+          display: block;
+        }
+        new {
+          display: none;
+        }
+      }
+    }
+
+    &_anime {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 5.6em;
+      padding-top: 3.9em;
+      &_head {
+        padding-bottom: 2em;
+      }
+    }
+  }
+}
+
+#head {
+  position: absolute;
+  right: 48%;
+  animation: bounce 4s infinite;
+}
+@keyframes bounce {
+  // 10% {
+  //   transform: translate(70px, 270px);
+  //   // transition-timing-function: ease-out;
+  // }
+  // 30%,
+  // 60%,
+  // 78% {
+  //   transform: translate(100px, 50px);
+  // }
+  // 50% {
+  //   transform: translate(100px, 270px);
+  // }
+  16%,
+  48%,
+  78% {
+    top: 300px;
+    animation-timing-function: ease-out;
+  }
+  32% {
+    top: 50px;
+    animation-timing-function: ease-in;
+  }
+  62% {
+    top: 150px;
+    animation-timing-function: ease-in;
+  }
+  90% {
+    top: 200px;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    top: 270px;
+    left: 100%;
+    animation-timing-function: ease-out;
+    transform: rotate(360deg);
+  }
+}
+.landing_body_text_t_new,
+.landing_body_text_about_new,
+.landing_body_text_work_new {
+  display: none;
+}
+
+.landing_body_text_t:hover .landing_body_text_t_old {
+  display: none;
+}
+
+.landing_body_text_about:hover .landing_body_text_about_old {
+  display: none;
+}
+.landing_body_text_work:hover .landing_body_text_work_old {
+  display: none;
+}
+
+.landing_body_text_t:hover .landing_body_text_t_new {
+  display: block;
+}
+
+.landing_body_text_about:hover .landing_body_text_about_new {
+  display: block;
+}
+.landing_body_text_work:hover .landing_body_text_work_new {
+  display: block;
+}
