@@ -2,7 +2,6 @@ import "./landing.scss";
 
 import head from "../../assets/baymax.svg";
 import Navbar from "./navbar";
-import stairs from "../../assets/stairs.svg";
 import { Link } from "react-router-dom";
 
 const Landing = () => {
@@ -45,7 +44,6 @@ const Landing = () => {
           <div className="landing_body_anime_head" id="head">
             <img src={head} alt="head" height={75} width={70} />
           </div>
-          <img src={stairs} alt="stairs" height={400} />
         </div>
       </div>
     </div>

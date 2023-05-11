@@ -2,6 +2,7 @@ import Navbar from "../navbar";
 import "./about.scss";
 import responsibilities from "./data";
 import Circle from "./circle";
+import head from "../../../assets/baymax.svg";
 
 const About = () => {
   return (
@@ -30,6 +31,11 @@ const About = () => {
               {responsibilities.map((responsibility) => {
                 return <Circle props={responsibility} />;
               })}
+            </div>
+          </div>
+          <div className="about_body_content_three">
+            <div className="about_body_content_three_head">
+              <img src={head} alt="head" height={105} width={100} />
             </div>
           </div>
         </div>

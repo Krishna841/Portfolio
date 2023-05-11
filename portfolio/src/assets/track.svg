@@ -11,12 +11,13 @@
 <path d="M1309.6 186.834C1184.95 189.442 1184.64 212.338 1182.97 335.939" stroke="black" stroke-width="2"/>
 <path d="M1180.81 542.835C1180.81 570.335 1180.77 581.177 1169.57 589.835" stroke="black" stroke-width="2"/>
 <path d="M1279.11 535.835C1276.67 661.652 1256.42 706.341 1167.16 711.834" stroke="black" stroke-width="2"/>
-<path d="M1038.66 712.333C1020.47 710.12 1015.45 719.83 1017 759.333" stroke="black" stroke-width="2"/>
-<path d="M1038.51 589.569C890.86 589.569 890.86 624.834 890.86 759.569" stroke="black" stroke-width="2"/>
-<path d="M132 589.286H0V711.286H132V589.286Z" fill="white"/>
-<path d="M132 590.286H0V588.286H132V590.286ZM0 710.286H132V712.286H0V710.286Z" fill="black"/>
-<path d="M131.337 711.619C149.529 709.406 154.547 719.116 153.003 758.619" stroke="black" stroke-width="2"/>
-<path d="M131.488 588.855C279.141 588.855 279.141 624.121 279.141 758.855" stroke="black" stroke-width="2"/>
+<path d="M132 589H0V711H132V589Z" fill="white"/>
+<path d="M132 590H0V588H132V590ZM0 710H132V712H0V710Z" fill="black"/>
+<mask id="path-13-inside-1_29_5" fill="white">
+<path d="M132 589H1042V711H132V589Z"/>
+</mask>
+<path d="M132 589H1042V711H132V589Z" fill="white"/>
+<path d="M132 591H1042V587H132V591ZM1042 709H132V713H1042V709Z" fill="black" mask="url(#path-13-inside-1_29_5)"/>
 </g>
 <defs>
 <clipPath id="clip0_29_5">
