@@ -46,39 +46,39 @@
         height: 90%;
         width: 100%;
         padding-bottom: 2em;
-        animation-name: bounce;
-        animation-duration: 4s;
-        animation-timing-function: ease-in;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
+        // animation-name: bounce;
+        // animation-duration: 4s;
+        // animation-timing-function: ease-in;
+        // animation-iteration-count: 1;
+        // animation-fill-mode: forwards;
       }
     }
   }
 }
-@keyframes bounce {
-  0% {
-    transform: translate(0px, 0px);
-  }
-  10% {
-    transform: translate(100px, 250px);
-  }
-  20% {
-    transform: translate(100px, 50px);
-  }
-  40% {
-    transform: translate(160px, 200px);
-  }
-  50% {
-    transform: translate(50px, 100px);
-  }
+// @keyframes bounce {
+//   0% {
+//     transform: translate(0px, 0px);
+//   }
+//   10% {
+//     transform: translate(100px, 250px);
+//   }
+//   20% {
+//     transform: translate(100px, 50px);
+//   }
+//   40% {
+//     transform: translate(160px, 200px);
+//   }
+//   50% {
+//     transform: translate(50px, 100px);
+//   }
 
-  // 75% {
-  //   transform: translate(100px, 50px);
-  // }
-  // 100% {
-  //   transform: translate(50px, 200px);
-  // }
-}
+// 75% {
+//   transform: translate(100px, 50px);
+// }
+// 100% {
+//   transform: translate(50px, 200px);
+// }
+// }
 
 .landing_body_text_t_new,
 .landing_body_text_about_new,
