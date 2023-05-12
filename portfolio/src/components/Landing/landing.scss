@@ -12,6 +12,7 @@
     width: 100%;
   }
   &_body {
+    position: relative;
     height: 80%;
     width: 100%;
     display: flex;
@@ -43,42 +44,56 @@
       margin-top: 5.6em;
       padding-top: 3.9em;
       &_head {
-        height: 90%;
-        width: 100%;
+        position: absolute;
+        right: 650px;
         padding-bottom: 2em;
-        // animation-name: bounce;
-        // animation-duration: 4s;
-        // animation-timing-function: ease-in;
-        // animation-iteration-count: 1;
-        // animation-fill-mode: forwards;
+        animation-name: bounce;
+        animation-duration: 8s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
       }
     }
   }
 }
-// @keyframes bounce {
-//   0% {
-//     transform: translate(0px, 0px);
-//   }
-//   10% {
-//     transform: translate(100px, 250px);
-//   }
-//   20% {
-//     transform: translate(100px, 50px);
-//   }
-//   40% {
-//     transform: translate(160px, 200px);
-//   }
-//   50% {
-//     transform: translate(50px, 100px);
-//   }
-
-// 75% {
-//   transform: translate(100px, 50px);
-// }
-// 100% {
-//   transform: translate(50px, 200px);
-// }
-// }
+@keyframes bounce {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  10% {
+    transform: translate(100px, 220px);
+  }
+  20% {
+    transform: translate(150px, 0px);
+  }
+  30% {
+    transform: translate(240px, 140px);
+  }
+  40% {
+    transform: translate(240px, 50px);
+  }
+  50% {
+    transform: translate(300px, 0px);
+  }
+  60% {
+    transform: translate(350px, 70px);
+  }
+  70% {
+    transform: translate(380px, -20px);
+  }
+  80% {
+    transform: translate(450px, 0px);
+  }
+  87% {
+    transform: translate(550px, -100px);
+  }
+  95% {
+    transform: translate(600px, -80px);
+  }
+  100% {
+    transform: translate(630px, -80px);
+  }
+}
 
 .landing_body_text_t_new,
 .landing_body_text_about_new,
